@@ -14,7 +14,7 @@ function splitStation(){
     return stationList;
 }
 function write2File(){
-    var output="";
+    var output="ID,Name,TelCode,PinYin,PY,PYCode\n";
     var station=splitStation();
     for(var i=1;i<station.length;i++){
         var arr=new Array();
