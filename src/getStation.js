@@ -1,4 +1,4 @@
-var fs=require('fs');
+import fs from 'fs';
 module.exports=function(){
     write2File();
     console.log("Station information has been writen to \"station.csv\" now.");

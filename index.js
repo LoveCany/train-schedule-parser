@@ -1,7 +1,7 @@
 //var request=require('request');
 
-var getStation=require('./src/getStation');
-var getTrainList=require('./src/getTrainList');
+import getStation from './src/getStation';
+import getTrainList from './src/getTrainList';
 getStation();
 getTrainList();
 console.log("Done.");
